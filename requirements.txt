@@ -1,0 +1,23 @@
+# ──────────────────────────────────────────────────────────
+#  Shakespearean Sentiment & Authenticity Engine
+#  requirements.txt
+# ──────────────────────────────────────────────────────────
+
+# Core UI
+streamlit>=1.35.0
+
+# NLP / Sentiment
+textblob>=0.18.0
+
+# Visualisation
+plotly>=5.22.0
+pandas>=2.2.0
+numpy>=1.26.0
+
+# Optional: Live API integrations (toggle in sidebar)
+# Uncomment to enable real Reddit / Google verification
+# praw>=7.7.1
+# requests>=2.31.0
+
+# Dev/optional
+# serpapi>=0.1.5    # alternative SerpApi client
